@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_5pCRwF5XEei2-NPOHLfQyQ" name="JeuMorpion">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_7M7tcF5XEei2-NPOHLfQyQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_6Pd_oF5XEei2-NPOHLfQyQ" name="Activity1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hJ4JUF5ZEei2-NPOHLfQyQ" name="cercleUML">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nGi8EF5ZEei2-NPOHLfQyQ" name="centre">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_33hl8F5ZEei2-NPOHLfQyQ">
+          <body>+ centre : point {unique}</body>
+        </ownedComment>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rG3W4F5ZEei2-NPOHLfQyQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rG3W4V5ZEei2-NPOHLfQyQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_33hl8V5ZEei2-NPOHLfQyQ" base_Comment="_33hl8F5ZEei2-NPOHLfQyQ" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>

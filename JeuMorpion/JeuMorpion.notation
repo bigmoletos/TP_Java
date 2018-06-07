@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration">
+  <notation:Diagram xmi:id="_6M7pAF5XEei2-NPOHLfQyQ" type="PapyrusUMLClassDiagram" name="Package Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6M7pAV5XEei2-NPOHLfQyQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6M7pAl5XEei2-NPOHLfQyQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6M7pA15XEei2-NPOHLfQyQ" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+      <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_6Yc8gF5XEei2-NPOHLfQyQ" type="PapyrusUMLInteractionOverviewDiagram" name="Interaction Overview Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_6Yc8gV5XEei2-NPOHLfQyQ" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Yc8gl5XEei2-NPOHLfQyQ" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Yc8g15XEei2-NPOHLfQyQ" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Yc8hF5XEei2-NPOHLfQyQ" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Yc8hV5XEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Yc8hl5XEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Yc8h15XEei2-NPOHLfQyQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Yc8iF5XEei2-NPOHLfQyQ" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Yc8iV5XEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Yc8il5XEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Yc8i15XEei2-NPOHLfQyQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Yc8jF5XEei2-NPOHLfQyQ" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Yc8jV5XEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Yc8jl5XEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Yc8j15XEei2-NPOHLfQyQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Yc8kF5XEei2-NPOHLfQyQ" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Yc8kV5XEei2-NPOHLfQyQ"/>
+      </children>
+      <element xmi:type="uml:Activity" href="JeuMorpion.uml#_6Pd_oF5XEei2-NPOHLfQyQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Yc8kl5XEei2-NPOHLfQyQ"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6Yc8k15XEei2-NPOHLfQyQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6Yc8lF5XEei2-NPOHLfQyQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6Yc8lV5XEei2-NPOHLfQyQ" diagramKindId="org.eclipse.papyrus.uml.diagram.interactionOverview">
+      <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="JeuMorpion.uml#_6Pd_oF5XEei2-NPOHLfQyQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_6Y5ocF5XEei2-NPOHLfQyQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_hKB6UF5ZEei2-NPOHLfQyQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hLX-IF5ZEei2-NPOHLfQyQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hLX-IV5ZEei2-NPOHLfQyQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hLX-Il5ZEei2-NPOHLfQyQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hLhvIF5ZEei2-NPOHLfQyQ" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_nG_oAF5ZEei2-NPOHLfQyQ" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="JeuMorpion.uml#_nGi8EF5ZEei2-NPOHLfQyQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_nG_oAV5ZEei2-NPOHLfQyQ"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hLhvIV5ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hLhvIl5ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hLhvI15ZEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hLhvJF5ZEei2-NPOHLfQyQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hLhvJV5ZEei2-NPOHLfQyQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hLhvJl5ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hLhvJ15ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hLhvKF5ZEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hLhvKV5ZEei2-NPOHLfQyQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hLhvKl5ZEei2-NPOHLfQyQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hLhvK15ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hLhvLF5ZEei2-NPOHLfQyQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hLhvLV5ZEei2-NPOHLfQyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hLhvLl5ZEei2-NPOHLfQyQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="JeuMorpion.uml#_hJ4JUF5ZEei2-NPOHLfQyQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hKB6UV5ZEei2-NPOHLfQyQ" x="160" y="60" width="261" height="221"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6Y5ocV5XEei2-NPOHLfQyQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6Y5ocl5XEei2-NPOHLfQyQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6Y5oc15XEei2-NPOHLfQyQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_6aF7QF5XEei2-NPOHLfQyQ" name="View Table" currentRowAxisProvider="_6aF7Rl5XEei2-NPOHLfQyQ" currentColumnAxisProvider="_6aF7QV5XEei2-NPOHLfQyQ" tableKindId="org.eclipse.papyrus.uml.table.view">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6aNQAF5XEei2-NPOHLfQyQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6aNQAV5XEei2-NPOHLfQyQ" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_6aF7QV5XEei2-NPOHLfQyQ" description="Provides the features of the views" name="Papyrus Views feature provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_6aF7Ql5XEei2-NPOHLfQyQ" element="nattable_editor_pages:/name">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_6aF7Q15XEei2-NPOHLfQyQ" element="nattable_editor_pages:/context">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_6aF7RF5XEei2-NPOHLfQyQ" element="nattable_editor_pages:/isOpen">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_6aF7RV5XEei2-NPOHLfQyQ" element="nattable_editor_pages:/type">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_6aF7Rl5XEei2-NPOHLfQyQ"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_6aVL0F5XEei2-NPOHLfQyQ" type="PapyrusUMLClassDiagram" name="Inner Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6aVL0V5XEei2-NPOHLfQyQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6aVL0l5XEei2-NPOHLfQyQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6aVL015XEei2-NPOHLfQyQ" diagramKindId="org.eclipse.papyrus.uml.diagram.innerClass">
+      <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_6ajOQF5XEei2-NPOHLfQyQ" name="Generic Table" currentRowAxisProvider="_6ajOQl5XEei2-NPOHLfQyQ" currentColumnAxisProvider="_6ajOQV5XEei2-NPOHLfQyQ" tableKindId="org.eclipse.papyrus.uml.table.generic">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6amRkF5XEei2-NPOHLfQyQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6amRkV5XEei2-NPOHLfQyQ" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    <owner xmi:type="uml:Model" href="JeuMorpion.uml#_5pCRwF5XEei2-NPOHLfQyQ"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_6ajOQV5XEei2-NPOHLfQyQ" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_6ajOQl5XEei2-NPOHLfQyQ" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+  </nattable:Table>
+</xmi:XMI>

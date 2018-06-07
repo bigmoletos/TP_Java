@@ -1,0 +1,63 @@
+raccourcis eclipse
+CTRL + Espace 
+//L'indispensable auto-complétion
+CTRL + SHIFT + O 
+//Organise les imports
+CTRL + SHIFT + T 
+//Recherche une classe dans le workspace (indispensable s'il on a beaucoup de fichiers)
+CTRL + O 
+//Affichage les attributs et méthodes de la classe courante
+CTRL + O + O ('O' deux fois) 
+//Ajoute à l'affichage les attributs et méthodes héritées
+CTRL + T 
+//Affiche l'arborescence d'héritage de la classe courante
+ALT + SHIFT + J 
+//Génère un template de Javadoc pour une classe une méhode ou un attribut en fonction de la sélection
+CTRL + SHIFT + F 
+// Mise en forme du code (vous pouvez surligner une zone de code pour restreindre le formatage)
+ALT + SHIFT + R 
+//Renommer une variable, une méthode ou fonction, une classe... etc (depuis 3.3 la transformation peut se faire en temps réel)
+CTRL + SHIFT + C 
+//Commente / Décommente les lignes sélectionnées (commentaire encapsulant chaque ligne indépendamment)
+CTRL + SHIFT + / 
+//Commente / Décommente un blocs de lignes sélectionnées (peut avoir le même comportement que CTRL + SHIFT + C selon le contexte)
+CTRL + SHIFT + P 
+//Pour se déplacer d'une accolade à l'autre
+
+
+
+
+Ctrl + shift + / : Commenter ou dé-commenter. //
+Ctrl + shift + C : Commenter ou dé-commenter. /* */
+Ctrl + D  : Supprimer la ligne courante ou les lignes sélectionnées.
+Ctrl + shift + F : Indente le code (s'il n'y a pas d'erreur).
+Ctrl + shift + 0 : Fait tous les importes nécessaires et supprime ceux qui ne le sont pas.
+Ctrl + Alt + ↑ : Copier la ligne courante vers le haut.
+Ctrl + Alt + ↓ : Copier la ligne courante vers le bas.
+
+Alt + shift + A : Sélection par bloc, et non en lignes.:)
+Alt + shift + R : Renommer une variable, une méthode ou une classe de façon générale.
+	Classe : renomme le fichier
+	Méthode : change le nom et tous les appels dans la classe
+	Variable : change le nom et toutes ses utilisations dans la méthode ou la classe
+debug
+F6 : Instruction suivante
+Sur une variable, une classe ou une méthode
+F2 : Informations. Identique à l'apparition d'une infobulle, sauf que le cadre l'information peut être manipulé (sélection du contenu, taille, déplacement).
+Ctrl + T : Super Type Hierarchy.
+Ctrl + Clic Gauche : Se rendre là où elle (méthode, classe, ...) se trouve ou là où elle (variable, constante, ...) a été initialisée.
+Onglets
+Ctrl + PageHaut ou PageBas : Changer d'onglet (précédent ou suivant).
+Ctrl + E : Chercher un fichier ouvert.
+Ctrl + W : Fermer l'onglet.
+Groupes
+Ctrl + M : Mettre le « groupe » d'onglets (fichiers ou modules) en plein page ou non.
+Rechercher
+Ctrl + shift + R : Trouver un fichier rapidement dans le projet
+Ctrl + shift + T : Trouver une classe rapidement dans le projet
+Ctrl + H : Trouver un élément
+
+
+Ctrl +shift+ / (du clavier numerique) repli de tous les -
+Ctrl +shift+ * (du clavier numerique) dépliage de tous les +
+
