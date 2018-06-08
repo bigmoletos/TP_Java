@@ -1,0 +1,24 @@
+2018-06-08T10:04:58.987 - **Error** - les vandales attaquent la reine
+2018-06-08T10:27:00.229 - **Error** - les vandales attaquent la reine
+2018-06-08T10:27:43.680-info les vandales attaquent la reine
+2018-06-08T11:22:46.610-info les vandales attaquent la reine
+2018-06-08T11:30:04.989-info les vandales attaquent la reine
+2018-06-08T11:30:04.995-info le roi s'en va en guerre
+2018-06-08T11:34:56.477-info les vandales attaquent la reine
+2018-06-08T11:34:56.479-info le roi s'en va en guerre
+2018-06-08T11:36:47.951-info les vandales attaquent la reine
+2018-06-08T11:36:47.957-info le roi s'en va en guerre
+2018-06-08T11:37:02.782-info les vandales attaquent la reine
+2018-06-08T11:37:02.784-info le roi s'en va en guerre
+2018-06-08T11:39:00.425-info les vandales attaquent la reine
+2018-06-08T11:39:00.427-info le roi s'en va en guerre
+[2018-06-08T11:40:55.141]-**info**- les vandales attaquent la reine
+[2018-06-08T11:40:55.141]-**info**- le roi s'en va en guerre
+[2018-06-08T11:46:57.113]-**information**- les vandales attaquent la reine
+[2018-06-08T11:46:57.430]-**information**- le roi s'en va en guerre
+[2018-06-08T11:49:07.426]-**information**- les vandales attaquent la reine
+[2018-06-08T11:49:07.753]-**information**- le roi s'en va en guerre
+date [2018-06-08T11:52:56.333]-**information**- les vandales attaquent la reine
+date [2018-06-08T11:52:56.682]-**information**- le roi s'en va en guerre
+date [2018-06-08T11:53:18.290]-**information**: les vandales attaquent la reine
+date [2018-06-08T11:53:18.608]-**information**: le roi s'en va en guerre
