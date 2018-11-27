@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider">
+  <nattable:Table xmi:id="_8RWmcF_ZEeiI_Pu2kWSEAA" name="View Table" currentRowAxisProvider="_8RWmdl_ZEeiI_Pu2kWSEAA" currentColumnAxisProvider="_8RWmcV_ZEeiI_Pu2kWSEAA" tableKindId="org.eclipse.papyrus.uml.table.view">
+    <eAnnotations xmi:id="_8RyrUF_ZEeiI_Pu2kWSEAA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_8RzSYF_ZEeiI_Pu2kWSEAA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="MorpionUml.uml#_8LNiMF_ZEeiI_Pu2kWSEAA"/>
+    <owner href="MorpionUml.uml#_8LNiMF_ZEeiI_Pu2kWSEAA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_8RWmcV_ZEeiI_Pu2kWSEAA" description="Provides the features of the views" name="Papyrus Views feature provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_8RWmcl_ZEeiI_Pu2kWSEAA" element="nattable_editor_pages:/name">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_8RWmc1_ZEeiI_Pu2kWSEAA" element="nattable_editor_pages:/context">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_8RWmdF_ZEeiI_Pu2kWSEAA" element="nattable_editor_pages:/isOpen">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_8RWmdV_ZEeiI_Pu2kWSEAA" element="nattable_editor_pages:/type">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_8RWmdl_ZEeiI_Pu2kWSEAA"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_8Xj8IF_ZEeiI_Pu2kWSEAA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_8Xj8IV_ZEeiI_Pu2kWSEAA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_8Xj8Il_ZEeiI_Pu2kWSEAA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_8Xj8I1_ZEeiI_Pu2kWSEAA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="MorpionUml.uml#_8LNiMF_ZEeiI_Pu2kWSEAA"/>
+    </styles>
+    <element href="MorpionUml.uml#_8LNiMF_ZEeiI_Pu2kWSEAA"/>
+  </notation:Diagram>
+</xmi:XMI>

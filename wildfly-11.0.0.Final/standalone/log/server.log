@@ -1,0 +1,26 @@
+2018-07-06 10:13:24,373 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: '/GestionProduit-web' from server 'default-server'
+2018-07-06 10:13:41,259 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment GestionProduit-web.war (runtime-name: GestionProduit-web.war) in 19861ms
+2018-07-06 10:13:46,684 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "GestionProduit-web.war" (runtime-name: "GestionProduit-web.war")
+2018-07-06 10:13:46,778 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."GestionProduit-ejb.jar#GestionProduit-ejb": org.hibernate.AnnotationException: No identifier specified for entity: model.Categorie
+
+2018-07-06 10:13:51,910 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found GestionProduit-web.war in deployment directory. To trigger deployment create a file called GestionProduit-web.war.dodeploy
+2018-07-06 10:13:52,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "GestionProduit-web.war" (runtime-name: "GestionProduit-web.war")
+2018-07-06 10:14:00,853 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment GestionProduit-web.war
+2018-07-06 10:14:02,278 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ListeProduitsService' in deployment unit 'deployment "GestionProduit-web.war"' are as follows:
+
+	java:global/GestionProduit-web/ListeProduitsService!fr.humanBooster.service.ServiceLocal
+	java:app/GestionProduit-web/ListeProduitsService!fr.humanBooster.service.ServiceLocal
+	java:module/ListeProduitsService!fr.humanBooster.service.ServiceLocal
+	java:global/GestionProduit-web/ListeProduitsService
+	java:app/GestionProduit-web/ListeProduitsService
+	java:module/ListeProduitsService
+
+2018-07-06 10:14:14,768 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Initialisation de Mojarra 2.2.13.SP4  pour le contexte «/GestionProduit-web»
+2018-07-06 10:14:21,393 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Monitoring file:/C:/Users/HB/Documents/formation-Human-Booster/data-eclipse/wildfly-11.0.0.Final/standalone/deployments/GestionProduit-web.war/WEB-INF/faces-config.xml for modifications
+2018-07-06 10:14:21,532 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 90) Running on PrimeFaces 6.2
+2018-07-06 10:14:21,826 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/GestionProduit-web' for server 'default-server'
+2018-07-06 10:14:22,137 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "GestionProduit-web.war" (runtime-name : "GestionProduit-web.war")
+2018-07-06 10:14:22,139 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."GestionProduit-ejb.jar#GestionProduit-ejb": org.hibernate.AnnotationException: No identifier specified for entity: model.Categorie
+

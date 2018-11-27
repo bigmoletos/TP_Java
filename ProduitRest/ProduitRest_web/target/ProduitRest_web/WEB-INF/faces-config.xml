@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+	<managed-bean>
+		<managed-bean-name>produitManagberBean</managed-bean-name>
+		<managed-bean-class>fr.humanbooster.controller.ProduitManagberBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>	
+
+	<!-- <managed-bean> -->
+	<!-- <managed-bean-name>produitManagerBean</managed-bean-name> -->
+	<!-- <managed-bean-class>fr.humanBooster.controller.ProduitManagerBean</managed-bean-class> -->
+	<!-- ici on aurait pu avoir session au lieu de request, -->
+	<!-- notre demande serait valable pour la durée de la session ou de la requete -->
+	<!-- <managed-bean-scope>request</managed-bean-scope> -->
+	<!-- </managed-bean> -->
+	
+	<!--routage fichier depuis index vers produit.xhtml et hightech.xhtml -->
+	<navigation-rule>
+		<from-view-id>/index.xhtml</from-view-id>
+		<navigation-case>
+			<!-- indexToproduit est un identifiant on met ce que l'on veut, il suffira 
+				de le nommer pour etre interpreté comme une cible -->
+			<from-outcome>indexToproduit</from-outcome>
+			<to-view-id>/produitRestService.xhtml</to-view-id>
+		</navigation-case>
+		<navigation-case>
+			<from-outcome>indexToHigtech</from-outcome>
+			<to-view-id>/hightechRestService.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<!--routage fichier depuis hightech vers produit.xhtml et index.xhtml -->
+		<!-- lien de hightech vers page index -->
+		<from-view-id>/hightechRestService.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>HightechToIndex</from-outcome>
+			<to-view-id>/index.xhtml</to-view-id>
+		</navigation-case>
+		<navigation-case>
+			<!--lien de hightech vers page produit -->
+			<from-outcome>HightechToproduit</from-outcome>
+			<to-view-id>/produitRestService.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<!--routage fichier depuis produit vers hightech.xhtml et index.xhtml -->
+	<navigation-rule>
+		<!--lien de produit vers page hightech -->
+		<from-view-id>/produitRestService.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>ProduitToHightech</from-outcome>
+			<to-view-id>/hightechRestService.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<!--routage réponse -->
+<!-- 	<managed-bean> -->
+<!-- 		<managed-bean-name>ProduitManagberBean</managed-bean-name> -->
+<!-- 		<managed-bean-class>fr.humanbooster.controller.ProduitManagberBean</managed-bean-class> -->
+<!-- 		<managed-bean-scope>request</managed-bean-scope> -->
+<!-- 	</managed-bean> -->
+	
+	
+</faces-config>
+	
+

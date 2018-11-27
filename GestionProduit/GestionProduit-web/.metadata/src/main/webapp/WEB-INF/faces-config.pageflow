@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15310672380320" configfile="/GestionProduit-web/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="122" y="279" id="pf15310674247301" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf15310674247312 pf15310674247313" inlinks="pf15310674247314" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="produit.xhtml" x="554" y="279" id="pf15310674247325" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf15310674247326" inlinks="pf15310674247312 pf15310674247327" path="/produit.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="hightech.xhtml" x="338" y="178" id="pf15310674247328" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" outlinks="pf15310674247314 pf15310674247327" inlinks="pf15310674247313 pf15310674247326" path="/hightech.xhtml"/>
+  <links id="pf15310674247312" target="pf15310674247325" source="pf15310674247301" outcome="indexToproduit"/>
+  <links id="pf15310674247313" target="pf15310674247328" source="pf15310674247301" outcome="indexToHigtech"/>
+  <links id="pf15310674247314" target="pf15310674247301" source="pf15310674247328" outcome="HightechToIndex"/>
+  <links id="pf15310674247327" target="pf15310674247325" source="pf15310674247328" outcome="HightechToproduit"/>
+  <links id="pf15310674247326" target="pf15310674247328" source="pf15310674247325" outcome="ProduitToHightech"/>
+</pageflow:Pageflow>

@@ -1,0 +1,5 @@
+Sélectionner le nom du projet dans l'explorer.
+cliquer sur 'Project' -> 'Properties'
+choisir java build path et add jar (voir Ajouter driver au projet part1)
+ouvrir de dossier lib et sélectionner le pilote (voir Ajouter driver au projet part2)
+finir par 'apply and close'

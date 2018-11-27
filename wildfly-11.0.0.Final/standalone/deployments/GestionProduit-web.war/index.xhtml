@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Facelet Title</title>
+	<!--          <link rel="stylesheet" href="resources/ProduitCss.css"  type="text/css" charset="utf_8"/> -->
+</h:head>
+<h:body>
+        Bienvenue sur la page d'accueil 
+        
+<!--        <p:dataTable value=""
+                     var="n"
+       dans le fichier java on appelera la variable avec #"{n}
+       
+    <p:commandLink action="#"{ProduitManagedBean.listProduit()}"
+    quand on a une action particuliére, comme ici afficher une liste, 
+   ( cette liste doit etre créée depuis une BDD) à faire on passe par un commandLink
+    sinon on passe par un simple link, comme pour une page  contact
+    
+    -->
+	    <h:form>
+	    	   <h:commandLink value="liste" action="#{ProduitManagerBean.tousLesProduits()}" />
+
+	    	   <h:commandButton value="Souhaiter la bienvenue" action="index" />
+	    	</h:form>
+	<br></br>
+	
+<!-- 	<h:form> -->
+<!-- 		<h:inputText value="#{ProduitManagerBean.nom}" /> -->
+<!-- 		<h:commandButton  -->
+<!-- 			value="Souhaiter la bienvenue" -->
+<!-- 			action="#{ProduitManagerBean.nom}" /> -->
+<!-- 	</h:form> -->
+<!-- 	<br></br> -->
+<!-- 	<p>Bienvenue #{ProduitManagerBean.nom} !</p> -->
+	
+	<br></br>
+	<!--lien vers la page produits-->
+	<h:link outcome="indexToproduit" value="Voir les produits " />
+	<br></br>
+	<!--lien vers la page hightech-->
+	<h:link outcome="indexToHigtech" value="Voir les produits high tech " />
+</h:body>
+</html>
+

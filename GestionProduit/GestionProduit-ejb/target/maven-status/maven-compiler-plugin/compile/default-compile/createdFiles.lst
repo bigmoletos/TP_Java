@@ -1,0 +1,5 @@
+fr\humanBooster\service\ProduitsService.class
+model\Categorie.class
+model\Produit.class
+fr\humanBooster\service\ServiceLocal.class
+fr\humanBooster\service\ListeProduitsService.class
