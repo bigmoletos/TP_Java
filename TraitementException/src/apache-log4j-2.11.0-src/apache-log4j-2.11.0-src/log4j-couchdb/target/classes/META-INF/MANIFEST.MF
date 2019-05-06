@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Log4j CouchDB
+Automatic-Module-Name: org.apache.logging.log4j.couchdb
+Implementation-Version: 2.11.0
+Built-By: h2g
+Specification-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Log4j CouchDB
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Target-JDK: 1.7
+X-Compile-Source-JDK: 1.7
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://logging.apache.org/log4j/2.x/log4j-couchdb
+ /
+Created-By: Maven Integration for Eclipse
+Specification-Version: 2.11.0
+
